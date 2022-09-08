@@ -1,0 +1,23 @@
+### Scala ###
+*.class
+*.log
+
+# VSCode/Metals
+.bloop
+.metals
+.vscode
+metals.sbt
+
+# Scala build support
+.bsp/
+
+# Scala build output
+target/
+
+# Test output
+test_output/
+test_dlq/
+test_processed/
+
+# Private stuff
+private/
