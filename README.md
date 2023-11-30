@@ -1,6 +1,11 @@
 # Provider Visits
 
-This is a Spark project used to generate reports that deliver data about providers. 
+This is a Spark project used to generate reports that deliver data about providers.
+
+## Requirements
+* Language: Scala
+* Framework: Spark
+* Output: json file/files 
 
 ## Data
 
@@ -17,3 +22,4 @@ Feel free to use this repository as a basis for solving these problems. You can 
 
 2. Given the two datasets, calculate the total number of visits per provider per month. The resulting set should contain the provider's ID, the month, and total number of visits. Output the result set in json.
 
+Please provide your code in some format so we can attempt to run it during evaluation. Examples include github/gitlab links, .scala files, zipped folders contain the modified source project.
