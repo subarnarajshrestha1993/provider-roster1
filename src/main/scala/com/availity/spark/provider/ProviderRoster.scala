@@ -11,7 +11,7 @@ object ProviderRoster  {
 
     val spark = SparkSession.builder()
       .master("local[1]")
-      .appName("SparkByExample")
+      .appName("AvailityChallenge")
       .getOrCreate();
 
 
